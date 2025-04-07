@@ -4,6 +4,7 @@ function motoEvent(action, num) {
   motos.forEach(moto => {
     if (moto.classList.contains(`m${num}`)) return
     moto.classList[action](`add${num}`)
+    motoInnerText.style.opacity = 1
   })
   if (num === 1) {
     motoInnerText.textContent = "This is moto1."
@@ -19,4 +20,7 @@ function motoEvent(action, num) {
   if (action == 'remove') {
     motoInnerText.style.opacity = 0
   }
+}
+
+function motoText(num) {
 }
