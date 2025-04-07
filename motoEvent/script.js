@@ -20,6 +20,3 @@ function motoEvent(action, num) {
     motoInnerText.style.opacity = 0
   }
 }
-
-function motoText(num) {
-}
