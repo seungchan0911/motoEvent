@@ -6,19 +6,14 @@ function motoEvent(action, num) {
     moto.classList[action](`add${num}`)
   })
   if (num === 1) {
-    motoInnerText.style.opacity = 1
     motoInnerText.textContent = "This is moto1."
   } else if (num === 2) {
-    motoInnerText.style.opacity = 1
     motoInnerText.textContent = "This is moto2."
   } else if (num === 3) {
-    motoInnerText.style.opacity = 1
     motoInnerText.textContent = "This is moto3."
   } else if (num === 4) {
-    motoInnerText.style.opacity = 1
     motoInnerText.textContent = "This is moto4."
   } else if (num === 5) {
-    motoInnerText.style.opacity = 1
     motoInnerText.textContent = "This is moto5."
   }
   if (action == 'remove') {
